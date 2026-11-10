@@ -1,7 +1,7 @@
 # Restaurant Menu Management Using a Binary Search Tree
 
 [![Tests](https://github.com/nadeem015/restaurant-menu-bst/actions/workflows/tests.yml/badge.svg)](https://github.com/nadeem015/restaurant-menu-bst/actions/workflows/tests.yml)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 A console app for managing a restaurant menu. It stores items in a **Binary Search Tree (BST)** keyed by item ID, written from scratch in Python with no third-party libraries.
@@ -33,7 +33,7 @@ Enter choice: 5
 - **Persistence:** save to and load from JSON, and import items from CSV.
 - **Input validation:** bad IDs, empty names and negative or non-numeric prices are rejected with a clear message instead of crashing.
 - **Iterative algorithms:** no recursion-depth limit, even for a worst-case 5,000-deep tree.
-- **Tests:** 24 pytest tests that run automatically on every push.
+- **Tests:** 24 pytest tests that run automatically on every push (Python 3.11 and 3.13).
 
 ## Complexity
 
@@ -47,7 +47,7 @@ Inserting IDs in sorted order turns the tree into a chain. The [report](report.m
 
 ## Getting started
 
-Requires Python 3.9 or newer. There are no dependencies.
+Requires Python 3.10 or newer. There are no dependencies.
 
 ```bash
 python src/main.py
